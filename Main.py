@@ -57,7 +57,7 @@ class Solution:
         # Write your code here
         
          if self.size == len(self.stack):
-            return True
+                return True
         else:
             return False
 
