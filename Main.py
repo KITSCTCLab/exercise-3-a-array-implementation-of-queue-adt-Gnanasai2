@@ -55,9 +55,8 @@ class Solution:
           True if it is full, else returns False.
         """
         # Write your code here
-        
-         if self.size == len(self.stack):
-                return True
+        if self.size == len(self.stack):
+            return True
         else:
             return False
 
