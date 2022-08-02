@@ -139,6 +139,9 @@ solution = Solution(length_of_text)
 # push/enqueue all the characters of string text to stack
 for index in range(length_of_text):
     # Write code here
+    if solution.pop_character() != solution.dequeue_character():
+ is_palindrome = False
+ break
 
 is_palindrome = True
 '''
