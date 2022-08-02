@@ -68,7 +68,7 @@ class Solution:
         """
         # Write your code here
         
-         if self.size == len(self.queue):
+        if self.size == len(self.queue):
             return True
         else:
             return False
